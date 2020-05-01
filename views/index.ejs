@@ -1,0 +1,128 @@
+<%- include("partials/header"); -%>
+<div class="container">
+   <h1 class="center data">Trenutno vrijeme</h1>
+   <hr class="hr">
+   <div class="center">
+      <div class="data">
+         <label>Odaberite grad za koji želite vidjeti trenutno vrijeme</label>
+         <form action="/weather" method="post">
+            <div class="form-group data">
+               <select name="city" class="form-control col-sm-12 margin" id="exampleFormControlSelect1">
+                  <option value=""></option>
+                  <option value="3186886">Zagreb</option>
+                  <option value="3143244">Oslo</option>
+                  <option value="5368361">Los Angeles</option>
+                  <option value="3201047">Dubrovnik</option>
+                  <option value="3191648">Rijeka</option>
+                  <option value="3186952">Zadar</option>
+                  <option value="3190261">Split</option>
+                  <option value="3193935">Osijek</option>
+                  <option value="3187047">Vukovar</option>
+                  <option value="3197369">Krapina</option>
+                  <option value="3186984">Zabok</option>
+                  <option value="3202888">Čakovec</option>
+                  <option value="3188383">Varaždin</option>
+                  <option value="3190813">Sisak</option>
+                  <option value="3196697">Lekenik</option>
+               </select>
+               <button type="submit" name="button" class="btn-block btn btn-outline-primary margin1">Prikaži</button>
+            </div>
+         </form>
+      </div>
+   </div>
+   <div class="row data">
+      <div class="col-lg-6">
+         <table>
+            <tr>
+               <th>Trenutno je:</th>
+            </tr>
+            <tr>
+               <td>-</td>
+            </tr>
+         </table>
+      </div>
+      <div class="col-lg-6">
+         <table>
+            <tr>
+               <th>Geografske koordinate</th>
+            </tr>
+            <tr>
+               <td>-</td>
+            </tr>
+         </table>
+      </div>
+   </div>
+   <div class="row ">
+      <div class="col-lg-3 col-md-4 col-md-6">
+         <table>
+            <tr>
+               <th>Trenutna temperatura</th>
+            </tr>
+            <tr>
+               <td>-</td>
+            </tr>
+         </table>
+      </div>
+      <div class="col-lg-3 col-md-4 col-md-6">
+         <table>
+            <tr>
+               <th>Osjet temperature</th>
+            </tr>
+            <tr>
+               <td>-</td>
+            </tr>
+         </table>
+      </div>
+      <div class="col-lg-3 col-md-4 col-md-6">
+         <table>
+            <tr>
+               <th>Najniža očekivana temperatura</th>
+            </tr>
+            <tr>
+               <td>-</td>
+            </tr>
+         </table>
+      </div>
+      <div class="col-lg-3 col-md-4 col-md-6">
+         <table>
+            <tr>
+               <th>Najviša očekivana temperatura</th>
+            </tr>
+            <tr>
+               <td>-</td>
+            </tr>
+         </table>
+      </div>
+      <div class="col-lg-3 col-md-4 col-md-6">
+         <table>
+            <tr>
+               <th>Tlak</th>
+            </tr>
+            <tr>
+               <td>-</td>
+            </tr>
+         </table>
+      </div>
+      <div class="col-lg-3 col-md-4 col-md-6">
+         <table>
+            <tr>
+               <th>Vlažnost zraka</th>
+            </tr>
+            <tr>
+               <td>-</td>
+            </tr>
+         </table>
+      </div>
+      <div class="col-lg-3 col-md-4 col-md-6">
+         <table>
+            <tr>
+               <th>Brzina vjetra</th>
+            </tr>
+            <tr>
+               <td>-</td>
+            </tr>
+         </table>
+      </div>
+   </div>
+</div>
+<%- include("partials/footer"); -%>

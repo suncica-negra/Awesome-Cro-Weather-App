@@ -1,0 +1,90 @@
+body {
+	font-family: Quantico;
+	background-image: url("../munja.png");
+	background-size: cover;
+	background-position: center;
+}
+
+table {
+	border-collapse: separate;
+	width: 100%;
+	border-radius: 50px 20px;
+	-moz-border-radius: 50px 20px;
+	border: 6px solid #6d8f8e;
+	margin: 10px 5px;
+}
+
+td,
+th {
+	border-collapse: separate;
+	text-align: center;
+	padding: 8px;
+}
+
+h2 {
+	text-align: center;
+}
+
+.margin {
+	margin-left: 0;
+	padding-left: 0;
+}
+
+.margin1 {
+	margin-top: 10px;
+}
+
+.data {
+	margin-top: 40px;
+}
+
+.footer {
+	padding-top: 25px;
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+	height: 115px;
+	background-color: #6d8f8e;
+}
+
+.orhidea {
+	color: #161a9c;
+}
+
+.hr {
+	border: 0;
+	height: 2px;
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+.center {
+	text-align: center;
+	margin: auto;
+	width: 50%;
+}
+
+.padding {
+	padding-bottom: 30px;
+}
+
+.color {
+	color: #6d8f8e;
+}
+
+.error {
+	color: red;
+	text-align: center;
+}
+
+.img1 {
+	height: auto;
+	width: 100%;
+	max-width: 153.6px;
+	margin-bottom: 40px;
+}
+
+.img2 {
+	height: auto;
+	width: 100%;
+	max-width: 51.2px;
+}

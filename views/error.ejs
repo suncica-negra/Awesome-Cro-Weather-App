@@ -1,0 +1,13 @@
+<%- include("partials/header"); -%>
+<div class="container error">
+   <h2 class="data">Niste odabrali grad</h2>
+   <hr class="hr data">
+   <img src="/error.png" class="img1 data" title="Izvor: Pixabay">
+   <p><small class="data">Biti ćete prebačeni na prethodnu stranicu za 5 sekundi</small></p>
+</div>
+<script>
+	setTimeout(function () {
+	history.back();
+}, 5000);
+</script>
+<%- include("partials/footer"); -%>
