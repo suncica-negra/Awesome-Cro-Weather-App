@@ -22,7 +22,7 @@ Korišteni alati: **HTML, CSS, JavaScript, Node.js, Express.js, EJS, API**
 
 Aplikacija je funkcionalna i online je: https://awesome-cro-weather-app.herokuapp.com 
 
-## POČETNA
+## POČETNA / landing page
 
 ![alt text](https://github.com/suncica-negra/awesome-cro-weather-app/blob/master/public/pocetna.png)
 
@@ -30,6 +30,6 @@ Aplikacija je funkcionalna i online je: https://awesome-cro-weather-app.herokuap
 
 ![alt text](https://github.com/suncica-negra/awesome-cro-weather-app/blob/master/public/error-page.png)
 
-## PRIKAZ VREMENA
+## PRIKAZ VREMENA / forecast
 
 ![alt text](https://github.com/suncica-negra/awesome-cro-weather-app/blob/master/public/temp.png)
