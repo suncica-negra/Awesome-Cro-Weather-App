@@ -8,7 +8,7 @@ Has a responsive design and looks good on smaller screens (cell phone ...)
 
 Tools Used: **HTML, CSS, JavaScript, Node.js, Express.js, EJS, API**
 
-The app is functional and is online: https://awesome-cro-weather-app.herokuapp.com
+The app is functional and online: https://awesome-cro-weather-app.herokuapp.com
 
 *************************************
 
